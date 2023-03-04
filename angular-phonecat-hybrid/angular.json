@@ -25,14 +25,16 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
+            "assets": ["src/favicon.ico", "src/assets", "src/phones", "src/img"],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/angular/angular.js",
+              "node_modules/angular-resource/angular-resource.js",
+              "node_modules/angular-route/angular-route.js"
+            ]
           },
           "configurations": {
             "production": {
